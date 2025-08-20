@@ -6,13 +6,13 @@ Os testes de performance simulam múltiplos usuários acessando a aplicação si
 
 ---
 
-## 🎯 Por que usar Testes de Performance?
-
-✅ Avalia a capacidade da aplicação sob carga;
-✅ Identifica gargalos e pontos de falha;
-✅ Garante a estabilidade em situações de pico;
-✅ Melhora a experiência do usuário final;
-✅ Suporta integração com ferramentas de CI/CD.
+## 🎯 Por que usar Testes de Performance?  
+  
+✅ Avalia a capacidade da aplicação sob carga;  
+✅ Identifica gargalos e pontos de falha;  
+✅ Garante a estabilidade em situações de pico;  
+✅ Melhora a experiência do usuário final;  
+✅ Suporta integração com ferramentas de CI/CD.  
 
 ---
 
@@ -24,11 +24,11 @@ JavaScript	k6
 
 ---
 
-## ⚙️ Pré-requisitos
-
-✅ Python instalado (versão 3.7+ recomendada);
-✅ Locust instalado (pip install locust);
-✅ Editor de código ou IDE (VSCode, PyCharm, etc).
+## ⚙️ Pré-requisitos  
+  
+✅ Python instalado (versão 3.7+ recomendada);  
+✅ Locust instalado (pip install locust);  
+✅ Editor de código ou IDE (VSCode, PyCharm, etc).  
 
 ---
 
@@ -95,5 +95,6 @@ Abra uma Issue ou envie um Pull Request para melhorar os testes, adicionar cená
 ## 📄 Licença
 
 Este projeto está licenciado sob a MIT License.
+
 
 
