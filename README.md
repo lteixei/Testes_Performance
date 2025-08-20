@@ -17,10 +17,11 @@ Os testes de performance simulam múltiplos usuários acessando a aplicação si
 ---
 
 ## 🧰 Tecnologias e Ferramentas Utilizadas
-Linguagem	Ferramenta
-Python	Locust
-Java	JMeter
-JavaScript	k6
+| Linguagem   | Ferramenta   |
+|-------------|--------------|
+| Python      | Locust       |
+| Java        | JMeter       |
+| JavaScript  | k6           |
 
 ---
 
@@ -75,13 +76,14 @@ locust -f locustfile.py --host=https://reqres.in --users 20 --spawn-rate 5 --run
 ---
 
 ## ✅ Boas Práticas  
-Prática	Explicação  
-Simular cargas realistas -	Basear usuários e tarefas em uso real da aplicação  
-Variar o tempo entre ações -	Simular comportamento humano, não acesso contínuo  
-Monitorar recursos do sistema -	Observar CPU, memória, rede durante testes  
-Gerar relatórios detalhados -	Para análise e identificação de gargalos  
-Integrar com pipelines CI/CD -	Automatizar testes e garantir regressões  
-
+| Prática                       | Explicação                                           |
+|-------------------------------|------------------------------------------------------|
+| Simular cargas realistas      | Basear usuários e tarefas em uso real da aplicação   |
+| Variar o tempo entre ações    | Simular comportamento humano, não acesso contínuo    |
+| Monitorar recursos do sistema | Observar CPU, memória, rede durante testes           |
+| Gerar relatórios detalhados   | Para análise e identificação de gargalos             |
+| Integrar com pipelines CI/CD  | Automatizar testes e garantir regressões             |
+	  
 ---
 
 ## 🤝 Contribuição
@@ -94,6 +96,7 @@ Abra uma Issue ou envie um Pull Request para melhorar os testes, adicionar cená
 ## 📄 Licença
 
 Este projeto está licenciado sob a MIT License.
+
 
 
 
