@@ -1,4 +1,4 @@
-🚀 Testes de Performance para Aplicações Web
+# 🚀 Testes de Performance para Aplicações Web
 
 Este repositório apresenta uma base para implementação de Testes de Performance, fundamentais para garantir a estabilidade, capacidade e escalabilidade das aplicações sob carga.
 
@@ -33,20 +33,19 @@ JavaScript	k6
 ## ⚙️ Pré-requisitos
 
 ✅ Python instalado (versão 3.7+ recomendada);
-
 ✅ Locust instalado (pip install locust);
-
 ✅ Editor de código ou IDE (VSCode, PyCharm, etc).
 
 ---
 
 ## 📦 Instalação e Configuração (Exemplo Python + Locust)
-# Criar ambiente virtual (opcional)
+### Criar ambiente virtual (opcional)
 python -m venv venv
 venv\Scripts\activate   # Windows
 source venv/bin/activate  # Linux/Mac
 
-# Instalar Locust
+###
+Instalar Locust
 pip install locust
 
 ---
@@ -59,7 +58,9 @@ pip install locust
 ├── README.md
 └── requirements.txt # Dependências do projeto
 
-🔎 Exemplo Básico de Locustfile (locustfile.py)
+---
+
+## 🔎 Exemplo Básico de Locustfile (locustfile.py)
 from locust import HttpUser, task, between
 
 class WebsiteUser(HttpUser):
@@ -95,6 +96,9 @@ Integrar com pipelines CI/CD	Automatizar testes e garantir regressões
 Contribuições são bem-vindas!
 Abra uma Issue ou envie um Pull Request para melhorar os testes, adicionar cenários ou atualizar o README.
 
-📄 Licença
+---
+
+## 📄 Licença
 
 Este projeto está licenciado sob a MIT License.
+
