@@ -69,7 +69,7 @@ class WebsiteUser(HttpUser):
         self.client.get("/api/users?page=2")
 
 
-Executar teste no modo headless:
+### Executar teste no modo headless:
 
 locust -f locustfile.py --host=https://reqres.in --users 20 --spawn-rate 5 --run-time 1m --headless --csv=reports/test_performance --html=reports/test_performance.html
 
@@ -96,6 +96,7 @@ Abra uma Issue ou envie um Pull Request para melhorar os testes, adicionar cená
 ## 📄 Licença
 
 Este projeto está licenciado sob a MIT License.
+
 
 
 
