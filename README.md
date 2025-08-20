@@ -38,15 +38,14 @@ python -m venv venv
 venv\Scripts\activate   # Windows
 source venv/bin/activate  # Linux/Mac
 
-###
-Instalar Locust
+### Instalar Locust
 pip install locust
 
 ---
 
 ## 🏗 Estrutura Recomendada do Projeto
 
-📦 performance-tests/  
+### 📦 performance-tests/  
 ├── locustfile.py # Script principal de teste de performance  
 ├── reports/ # Relatórios gerados após os testes  
 ├── README.md  
@@ -95,6 +94,7 @@ Abra uma Issue ou envie um Pull Request para melhorar os testes, adicionar cená
 ## 📄 Licença
 
 Este projeto está licenciado sob a MIT License.
+
 
 
 
