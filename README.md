@@ -9,13 +9,9 @@ Os testes de performance simulam múltiplos usuários acessando a aplicação si
 ## 🎯 Por que usar Testes de Performance?
 
 ✅ Avalia a capacidade da aplicação sob carga;
-
 ✅ Identifica gargalos e pontos de falha;
-
 ✅ Garante a estabilidade em situações de pico;
-
 ✅ Melhora a experiência do usuário final;
-
 ✅ Suporta integração com ferramentas de CI/CD.
 
 ---
@@ -23,9 +19,7 @@ Os testes de performance simulam múltiplos usuários acessando a aplicação si
 ## 🧰 Tecnologias e Ferramentas Utilizadas
 Linguagem	Ferramenta
 Python	Locust
-
 Java	JMeter
-
 JavaScript	k6
 
 ---
@@ -52,11 +46,11 @@ pip install locust
 
 ## 🏗 Estrutura Recomendada do Projeto
 
-📦 performance-tests/
-├── locustfile.py # Script principal de teste de performance
-├── reports/ # Relatórios gerados após os testes
-├── README.md
-└── requirements.txt # Dependências do projeto
+📦 performance-tests/  
+├── locustfile.py # Script principal de teste de performance  
+├── reports/ # Relatórios gerados após os testes  
+├── README.md  
+└── requirements.txt # Dependências do projeto  
 
 ---
 
@@ -101,4 +95,5 @@ Abra uma Issue ou envie um Pull Request para melhorar os testes, adicionar cená
 ## 📄 Licença
 
 Este projeto está licenciado sob a MIT License.
+
 
