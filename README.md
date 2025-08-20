@@ -83,23 +83,33 @@ locust -f locustfile.py --host=https://reqres.in --users 20 --spawn-rate 5 --run
 | Monitorar recursos do sistema | Observar CPU, memória, rede durante testes           |
 | Gerar relatórios detalhados   | Para análise e identificação de gargalos             |
 | Integrar com pipelines CI/CD  | Automatizar testes e garantir regressões             |
-	  
+
 ---
 
 ## 🤝 Contribuição
 
-Contribuições são bem-vindas!
-Abra uma Issue ou envie um Pull Request para melhorar os testes, adicionar cenários ou atualizar o README.
+Contribuições são bem-vindas!  
+Abra uma Issue ou envie um Pull Request com melhorias, novos cenários ou exemplos de integração.
 
 ---
 
-## 📄 Licença
+## 🤝 Boas práticas para contribuições:  
+📌 Escreva código limpo, legível e documentado.  
+📌 Teste suas mudanças antes de enviar o Pull Request.  
+📌 Mantenha a consistência com o estilo e padrões do projeto.  
+📌 Discuta melhorias ou dúvidas antes de implementar grandes mudanças.
 
-Este projeto está licenciado sob a MIT License.
+---
 
+## 👩‍💻 Contato
+- Informações	
+- Nome	Leonardo da Motta Teixeira  
+- Cargo	QA Engineer / Gestor / Tester-Sênior  
+- LinkedIn	www.linkedin.com/in/leonardo-da-motta-teixeira-3584734b  
+- E-mail	lteixei@hotmail.com  
 
+---
 
+## 📝 Licença
 
-
-
-
+- Este projeto está licenciado sob a MIT License.
